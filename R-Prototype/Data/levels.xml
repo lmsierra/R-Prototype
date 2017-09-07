@@ -1,0 +1,114 @@
+<!-- R-Prototype levels -->
+<!-- 
+    numlevels tells how many levels is going the player be able to play.
+    The game will interpret that there are only "numlevels" in game, not reading the rest
+    of the levels created in the xml.
+
+    Spawnable entities: asteroids and enemies
+
+    Asteroids: cannot be destroyed.
+
+    Enemies: There are 4 types:
+        1 - Straight movement
+        2 - Straight movement + shooting
+        4 - Drops help powerup
+ -->
+<?xml version="1.0" encoding="UTF-8"?>
+<game version="1.0" numlevels="3">
+    <level name="E1M1">
+        <data>
+            <background src="background.png"     width="1091"      height="640" velocityx="-5.0" velocityy="0.0"/>
+            <enemy type="1" positionx="900"  positiony="400"   velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="975"  positiony="400"   velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1050" positiony="400"   velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="900"  positiony="75"    velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="975"  positiony="75"    velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1050" positiony="75"    velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="2" positionx="1050" positiony="175"   velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="1050" positiony="250"   velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="1050" positiony="325"   velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="4" positionx="1350" positiony="400"   velocityx="-3" velocityy="0.0"/>
+        </data>
+    </level>
+    <level name="Level2">
+        <data>
+            <background src="background.png"     width="1091"     height="640" velocityx="-5.0" velocityy="0.0"/>
+            <asteroid       positionx="900"   positiony="75"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="970"   positiony="145" velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="1040"  positiony="215" velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="1110"  positiony="285" velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="1250"  positiony="425" velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+        </data>
+    </level>
+    <level name="Level3">
+        <data>
+            <background src="background.png" width="1091" height="640" velocityx="-5.0" velocityy="0.0"/>
+            <enemy type="1" positionx="900"   positiony="400"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="950"   positiony="400"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1000"  positiony="400"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1050"  positiony="75"   velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1100"  positiony="75"   velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1150"  positiony="75"   velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1200"  positiony="350"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1250"  positiony="350"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1300"  positiony="350"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1350"  positiony="200"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1400"  positiony="200"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1450"  positiony="200"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1350"  positiony="250"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1400"  positiony="250"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="1450"  positiony="250"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="2" positionx="1125"  positiony="275"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="2" positionx="1125"  positiony="125"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="2" positionx="1100"  positiony="350"  velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="1100"  positiony="75"   velocityx="-1.5" velocityy="0.0"/>
+            <asteroid       positionx="1600"  positiony="150"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="1600"  positiony="325"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2000"  positiony="75"   velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2000"  positiony="400"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2000"  positiony="225"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+           <!--
+            <enemy type="1" positionx="2150"  positiony="75"   velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="2" positionx="2150"  positiony="125"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="2150"  positiony="175"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="2" positionx="2150"  positiony="225"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="2150"  positiony="275"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="1" positionx="2150"  positiony="325"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="4" positionx="2150"  positiony="375"  velocityx="-3.0" velocityy="0.0"/>
+            -->
+            <asteroid       positionx="2300"  positiony="145"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2370"  positiony="215"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2440"  positiony="285"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2510"  positiony="355"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2580"  positiony="400"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2650"  positiony="400"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2720"  positiony="355"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2790"  positiony="285"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2860"  positiony="215"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2930"  positiony="145"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            
+            <asteroid       positionx="2510"  positiony="145"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2580"  positiony="215"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2650"  positiony="285"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2720"  positiony="285"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2790"  positiony="215"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            <asteroid       positionx="2860"  positiony="145"  velocityx="-3.0" velocityy="0.0" width="64.0" height="64.0"/>
+            
+            <enemy type="4" positionx="3300"  positiony="200"  velocityx="-3.0" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="75"   velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="125"  velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="175"  velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="225"  velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="275"  velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="325"  velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="375"  velocityx="-1.5" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="100"  velocityx="-1.25" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="150"  velocityx="-1.25" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="200"  velocityx="-1.25" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="250"  velocityx="-1.25" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="300"  velocityx="-1.25" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="350"  velocityx="-1.25" velocityy="0.0"/>
+            <enemy type="2" positionx="3000"  positiony="400"  velocityx="-1.25" velocityy="0.0"/>
+        </data>
+    </level>
+</game>

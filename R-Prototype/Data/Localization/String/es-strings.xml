@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings language="Spanish">
+    <item name="main_title">R-PROTOTYPE</item>
+    <item name="help">AYUDA</item>
+    <item name="new_game">NUEVA PARTIDA</item>
+    <item name="load_level">CARGAR NIVEL</item>
+    <item name="options">OPCIONES</item>
+    <item name="exit">SALIR</item>
+    <item name="back">VOLVER</item>
+    <item name="hint_move">FLECHAS DIRECCION - NAVEGACION</item>
+    <item name="hint_enter">ESPACIO - SELECCIONAR</item>
+    <item name="developer_note">2017 ~ LMSIERRA</item>
+    <item name="instructions_1">FLECHAS DIRECCION: MOVIMIENTO NAVE</item>
+    <item name="instructions_2">ESPACIO: DISPARAR</item>
+    <item name="instructions_3">SHIFT DERECHO: PAUSA</item>
+    <item name="level">NIVEL </item>
+    <item name="pause">PAUSA</item>
+    <item name="resume">CONTINUAR</item>
+    <item name="sound">SONIDO</item>
+    <item name="language">IDIOMA</item>
+    <item name="spanish">ESPANOL</item>
+    <item name="english">INGLES</item>
+    <item name="on">ON</item>
+    <item name="off">OFF</item>
+    <item name="locked">BLOQUEADO</item>
+    <item name="life">VIDA</item>
+    <item name="score">PUNTOS</item>
+    <item name="game_over">GAME OVER</item>
+    <item name="retry">VOLVER A INTENTAR</item>
+    <item name="next_level">SIGUIENTE NIVEL</item>
+    <item name="level_completed">COMPLETADO!</item>
+</strings>

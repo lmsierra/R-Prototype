@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings language="English">
+    <item name="main_title">R-PROTOTYPE</item>
+    <item name="help">HELP</item>
+    <item name="new_game">NEW GAME</item>
+    <item name="load_level">LOAD LEVEL</item>
+    <item name="options">OPTIONS</item>
+    <item name="exit">EXIT</item>
+    <item name="back">BACK</item>
+    <item name="hint_move">ARROWS   - NAVIGATE</item>
+    <item name="hint_enter">SPACEBAR - SELECT</item>
+    <item name="developer_note">2017 ~ LMSIERRA</item>
+    <item name="instructions_1">ARROWS: SPACESHIP MOVEMENT</item>
+    <item name="instructions_2">SPACEBAR: SHOOT</item>
+    <item name="instructions_3">RIGHT SHIFT: PAUSE GAME</item>
+    <item name="level">LEVEL </item>
+    <item name="pause">PAUSE</item>
+    <item name="resume">RESUME</item>
+    <item name="sound">SOUND</item>
+    <item name="language">LANGUAGE</item>
+    <item name="spanish">SPANISH</item>
+    <item name="english">ENGLISH</item>
+    <item name="on">ON</item>
+    <item name="off">OFF</item>
+    <item name="locked">LOCKED</item> 
+    <item name="life">LIFE</item>
+    <item name="score">SCORE</item>
+    <item name="game_over">GAME OVER</item>
+    <item name="retry">RETRY</item>
+    <item name="next_level">NEXT LEVEL</item>
+    <item name="level_completed">COMPLETED!</item>
+</strings>
